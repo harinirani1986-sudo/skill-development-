@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: cyan;
+        }
+        #a{
+            background-color: aquamarine;
+        }
+        .b{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>today we are going to see about element tag</p>
+    <p>the element tag is used to change the entire para</p>
+    <p>by using colour etc </p>
+    <p id="a">the line is about the id tag</p>
+    <p class="b">this line is about class tag</p>
+</body>
+</html>

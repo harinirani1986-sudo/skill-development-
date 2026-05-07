@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt1{
+            display: block;
+        }
+        .txt2{
+            display: flex;
+        }
+        .txt3{
+            display: grid;
+        }
+        .txt4{
+            display: inline;
+        }
+        .txt5{
+            display: inline-block;
+        }
+        p{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        span{
+            background-color: brown;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display inline</h1>
+    <p class="a">
+        <span>banana</span>
+        <span>apple</span>
+        <span>orange</span>
+    </p>
+
+    <h2>Display flex</h2>
+    <p class="b">
+        <span>blue</span>
+        <span>black</span>
+        <span>green</span>
+    </p>
+
+    <h3>Display grid</h3>
+    <p class="c">
+        <span>tomato</span>
+        <span>potato</span>
+        <span>cabbage</span>
+    </p>
+
+    <h4>Display block</h4>
+    <p class="a">
+        <span>mango juice</span>
+        <span>mosambi juice</span>
+        <span>orange juice</span>
+    </p>
+
+    <div class=" e">
+        <span><img src="c:\Users\harin\OneDrive\Pictures\Screenshots\Screenshot (177).png" alt=""></span>
+        <span><img src="c:\Users\harin\OneDrive\Pictures\Screenshots\Screenshot (177).png" alt=""></span>
+        <span><img src="c:\Users\harin\OneDrive\Pictures\Screenshots\Screenshot (177).png" alt=""></span>
+    </div>
+
+</body>
+</html>
