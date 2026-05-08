@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 4px groove blueviolet;
+            border-radius: 10px;
+            /* Added px to make the width functional */
+            width: 50px; 
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr style="height: 45px;">
+            <th>Bike</th>
+            <th>Car</th>
+            <th>Bicycle</th>
+        </tr>
+        <tr>
+            <td>KTM</td>
+            <td>Audi</td>
+            <td>Hercules</td>
+        </tr>
+        <tr>
+            <td>Pulsar</td>
+            <td>Mercedes</td>
+            <td>Atlas</td>
+        </tr>
+    </table>
+
+</body>
+</html>
