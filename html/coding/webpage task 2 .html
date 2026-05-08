@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body { 
+            background-color: rgb(249, 247, 204); 
+            font-family: sans-serif; 
+            text-align: center; 
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px; /* Adds space between inputs */
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+        }
+        .submit-btn {
+            background-color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 1px solid black;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CONTACT US</h1>
+    <hr>
+
+    <form action="submit-success.html">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="Company Name">
+        <input type="text" placeholder="How Can We Help You Today?">
+        
+        <p>
+            <input type="checkbox" id="opt-in">
+            <label for="opt-in">Opt in to our email list, and we'll send you info...</label>
+        </p>
+
+        <p style="font-size: 0.8em; color: #555;">
+            We process your Personal Data as needed to establish and maintain a relationship...
+        </p>
+
+        <button type="submit" class="submit-btn">SUBMIT</button>
+    </form>
+
+    <hr>
+    <footer>
+        <nav>
+            <a href="#">Terms of Use</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Cookies Policy</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
